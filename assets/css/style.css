@@ -3,19 +3,27 @@
 @import url(https://fonts.googleapis.com/css?family=Titillium+Web:300);
 
 
-nav {
-    float: right;
-    margin-top: 20px;
-    margin-right: 20px;
+.navbar {
+    text-align: right;
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    top: 0;
+    width: 100%; /* Full width */
+    z-index: 1;
     
 }
-#scroll-button {
-  position:fixed;
+ul {
+   background-color: rgb(204,204,204,0.9);
+   float:right;
+   
+   text-align: center;
+  
 }
     
 
-.nav ul {
-  
+.navbar-light .navbar-toggler {
+  background-color: rgb(204,204,204,0.9);
 }
 
 #landing {
@@ -24,7 +32,7 @@ nav {
     display: block;
     background-position: top;
     background-size: cover;
-    height: 1263px;
+    height: 100vh;
     width: 100vw;
     margin-bottom: 0px;
     z-index: 1;
@@ -65,7 +73,7 @@ nav {
     position: relative;
     font-weight: 300;
     margin-bottom: 0px;
-    height: 900px;
+    height: 100vh;
     
 
 }
@@ -75,7 +83,7 @@ nav {
 
 #about-txt {
       
-      font-size: 37px;
+      font-size: 24px;
       text-align: center;
  
 }
@@ -101,8 +109,47 @@ nav {
   font-size: 37px ;
 }
 
+#gallery {
+  background-attachment: fixed;
+    background-image: url("../images/second wall 34.jpg");
+    background-position: center;
+    background-size: cover;
+    width: 100vw;
+    padding-bottom: 50px;
+    background-repeat: no-repeat;
+    position: relative;
+    font-weight: 300;
+    margin-bottom: 0px;
+    height: 100vh;
+}
 
+#playlist {
+background-attachment: fixed;
+    
+    background-position: center;
+    background-size: cover;
+    width: 100vw;
+    padding-bottom: 50px;
+    background-repeat: no-repeat;
+    position: relative;
+    font-weight: 300;
+    margin-bottom: 0px;
+    height: 100vh;
+}
 
+#contact-us{
+background-attachment: fixed;
+    background-image: url("../images/second wall 34.jpg");
+    background-position: center;
+    background-size: cover;
+    width: 100vw;
+    padding-bottom: 50px;
+    background-repeat: no-repeat;
+    position: relative;
+    font-weight: 300;
+    margin-bottom: 0px;
+    height: 100vh;
+}
 /* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
  @media (max-width: 769px) {
   .sidebar {padding-top: 15px;}
@@ -125,12 +172,10 @@ nav {
     #landing {
       background-size: cover;
       background-image: url('../images/black-guitar.jpg');
-      background-position: top;
+      background-position: right;
       background-repeat: no-repeat;
-      
-     
-      
     }
+    
   }
 
 #thumbnails-card {
