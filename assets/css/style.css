@@ -69,14 +69,18 @@ ul {
     background-position: center;
     background-size: cover;
     width: 100vw;
-    padding-bottom: 50px;
+    padding-bottom: 0px;
     background-repeat: no-repeat;
     position: relative;
     font-weight: 300;
     margin-bottom: 0px;
-    height: 100vh;
+    height: 75vh;
     
 
+}
+
+#core-about a{
+    color:#212529;
 }
   #about-row{
     margin-top: 32px;
@@ -92,11 +96,15 @@ ul {
 #thumbnails-davy {
     margin-right: inherit;
     margin-left: 109px;
+    text-align: center;
+    margin-top: 50px;
 }
 
 #thumbnails-micky {
     margin-left: -95px;
-    padding-left: 43px;
+    padding-left: 82px;
+    text-align: center;
+    margin-top: 50px;
 }
 
 .card-title {
@@ -107,7 +115,8 @@ ul {
   font-size: 27px;
 }
 #link-more{
-  font-size: 37px ;
+  font-size: 25px;
+  text-align:right;
 }
 
 #gallery {
@@ -122,7 +131,7 @@ ul {
     position: relative;
     font-weight: 300;
     margin-bottom: 0px;
-    height: 100vh;
+    height: 75vh;
 }
 
 .img-thumbnail {
@@ -146,7 +155,7 @@ background-attachment: fixed;
     position: relative;
     font-weight: 300;
     margin-bottom: 0px;
-    height: 100vh;
+    height: 75vh;
 }
 
 #contact-us{
@@ -160,7 +169,7 @@ background-attachment: fixed;
     position: relative;
     font-weight: 300;
     margin-bottom: 0px;
-    height: 100vh;
+    height: 75vh;
 }
 /* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
  @media (max-width: 769px) {
