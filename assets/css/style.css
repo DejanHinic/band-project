@@ -1,14 +1,10 @@
-@import url(//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css);
-
-@import url(https://fonts.googleapis.com/css?family=Titillium+Web:300);
 
 body {
-    
-    min-height: 100vh;
+  height: 100%
+  
 }
-html {
-    min-height: 100vh;
-}
+
+/*-----------------------------------------------------------nav bar section */
 
 .navbar {
     text-align: right;
@@ -33,6 +29,8 @@ ul {
   background-color: rgb(204,204,204,0.9);
 }
 
+/*-----------------------------------------------------------landing section */
+
 #landing {
     
     background-image: url('../images/mainpic.jpg');
@@ -41,9 +39,9 @@ ul {
     background-size: cover;
     height: 100vh;
     width: 100vw;
-    margin-top: 0px;
+    margin: 0px;
     z-index: 1;
-    overflow-y: scroll;
+  /*  overflow-y: scroll; */
 }
 #main {
   height: 100%; /* 100% Full-height */
@@ -59,8 +57,6 @@ ul {
 }
 
 
-
-
 /* Style page content - use this if you want to push the page content to the right when you open the side navigation */
 #main {
   transition: margin-left .5s; /* If you want a transition effect */
@@ -68,7 +64,7 @@ ul {
   float:right;
 }
 
-
+/*-----------------------------------------------------------about us section */
 
 #about-us {
     background-attachment: fixed;
@@ -82,7 +78,7 @@ ul {
     font-weight: 300;
     height: 115vh;
     margin-bottom:0px;
-    
+    /*  overflow-y: scroll; */
 
 }
 
@@ -101,17 +97,15 @@ ul {
 }
 
 #thumbnails-davy {
-    margin-right: inherit;
-    margin-left: 109px;
+    
     text-align: center;
-    margin-top: 50px;
+  
 }
 
 #thumbnails-micky {
-    margin-left: -95px;
-    padding-left: 82px;
+    
     text-align: center;
-    margin-top: 50px;
+   
 }
 
 .card-title {
@@ -126,34 +120,7 @@ ul {
   text-align:right;
 }
 
-#gallery {
-  background-attachment: fixed;
-    background-image: url("../images/second wall 34.jpg");
-    background-position: center;
-    background-size: cover;
-    
-    width: 100vw;
-    padding-bottom: 50px;
-    background-repeat: no-repeat;
-    position: relative;
-    font-weight: 300;
-    margin-bottom: 0px;
-    height: 100vh;
-}
-
-.img-thumbnail {
-  height: 200px;
-  width: 260px;
-  padding: 0.25rem;
-    background-color: #fff;
-    border: 14px transparent;
-    border-radius: 2.25rem;
-    margin: 4px;
-}
-#media-title {
-
-  align-content:center;
-}
+/*------------------------------------------------------playlist section */
 
 #playlist {
     background-attachment: fixed;
@@ -166,7 +133,60 @@ ul {
     font-weight: 300;
     margin-bottom: 0px;
     height: 100vh;
+    /*  overflow-y: scroll; */
 }
+
+
+/*------------------------------------------------------gallery section */
+
+
+#gallery {
+    background-attachment: fixed;
+    background-image: url("../images/second wall 34.jpg");
+    background-position: center;
+    background-size: cover;
+    width: 100vw;
+    padding-bottom: 50px;
+    background-repeat: no-repeat;
+    position: relative;
+    font-weight: 300;
+    margin-bottom: 0px;
+    height: 100vh;
+    /*  overflow-y: scroll; */
+}
+
+.img-thumbnail {
+  height: 200px;
+  width: 260px;
+  padding: 0.25rem;
+  background-color: #fff;
+  border: 14px transparent;
+  border-radius: 2.25rem;
+  margin: 4px;
+}
+
+#media-title {
+    align-content:center;
+}
+
+/*------------------------------------------------------video section */
+
+#videofile {
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    width: 100vw;
+    padding-bottom: 50px;
+    background-repeat: no-repeat;
+    position: relative;
+    font-weight: 300;
+    margin-bottom: 0px;
+    height: 100vh;
+    /*  overflow-y: scroll; */
+}
+
+
+/*------------------------------------------------------contact-us section */
 
 #contact-us{
     background-attachment: fixed;
@@ -175,32 +195,111 @@ ul {
     background-size: cover;
     width: 100vw;
     background-repeat: no-repeat;
-    position: absolute;
+    position: relative;
     font-weight: 300;
-    
+   /*  overflow-y: scroll; */
     height: 100vh;
-    
+    margin: 0;
+   
 }
 
-#videofile {
-  height: 100vh;
-}
 
-#footer {
+
+
+
+/*------------------------------------------------------footer section */
+
+
+footer {
    
     width: 100vw;
-    position: absolute;
+    position: inherit;
     font-weight: 300;
-    margin-bottom: 0;
+    margin: 0;
     height: 30px;
-    
+    background-color: #414141;
+    height: 100px;
+    color: white;
+    /*  overflow-y: scroll; */
 }
 
-
+#social-media {
+  padding-top: 30px;
+  letter-spacing: 5px;
+}
 
 
 
 /* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+ @media (max-width: 769px) {
+  .sidebar {padding-top: 15px;}
+  .sidebar a {font-size: 18px;}
+  #thumbnails-davy {
+    margin: auto;
+    padding: auto;
+    }
+  #about-txt {
+     font-size: 19px;
+      text-align: center;}
+  #thumbnails-micky {
+    margin: auto;
+    }
+  #about-us{
+    height: auto;
+    
+  }
+    #link-more {
+      padding-top: 10px;
+      padding-bottom: 10px;
+    }
+    #landing {
+      background-size: cover;
+      background-image: url('../images/black-guitar.jpg');
+      background-position: right;
+      background-repeat: no-repeat;
+    }
+    #contact-us {
+      height: auto;
+      margin: 0;
+    }
+    footer {
+      margin: 0;
+    }
+    #social-media {
+      margin-top: 0px;
+      padding-top: 30px
+    }
+    #playlist {
+      height: auto;
+      margin: auto;
+    
+    }
+    #gallery {
+      height: auto;
+      margin: auto;
+    }
+    #videofile {
+      height: auto;
+      margin: 0;
+    }
+    #spoty {
+      width: 200px;
+      height: 300px;
+      margin: 0;
+    }
+    body {
+      margin: auto;
+    }
+  }
+
+#thumbnails-card {
+  
+}
+
+#audioheader {
+    
+}
+/*
  @media (max-width: 769px) {
   .sidebar {padding-top: 15px;}
   .sidebar a {font-size: 18px;}
@@ -212,7 +311,7 @@ ul {
       text-align: center;}
   #thumbnails-micky {
     margin-left: 5%;
-    padding-left: auto;}
+    padding-left: inherit;}
   #about-us{
     height: 200vh;
     position:relative;
@@ -229,11 +328,4 @@ ul {
     }
     
   }
-
-#thumbnails-card {
-  
-}
-
-#audioheader {
-    
-}
+  */
