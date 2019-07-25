@@ -1,3 +1,6 @@
+html{
+  scroll-behavior: smooth;
+}
 
 body {
   height: 100%
@@ -23,7 +26,21 @@ ul {
    text-align: center;
   
 }
-    
+
+li.nav-item {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+a.page-scroll {
+  color:black;
+  padding: 5px;
+  font-size: 1.2em;
+  
+}
+a.page-scroll:hover { 
+  color: grey;
+  text-decoration: none;
+}   
 
 .navbar-light .navbar-toggler {
   background-color: rgb(204,204,204,0.9);
@@ -76,7 +93,7 @@ ul {
     background-repeat: no-repeat;
     position: relative;
     font-weight: 300;
-    height: 115vh;
+    height: 100vh;
     margin-bottom:0px;
     /*  overflow-y: scroll; */
 
@@ -198,7 +215,7 @@ ul {
     position: relative;
     font-weight: 300;
    /*  overflow-y: scroll; */
-    height: 100vh;
+    height: 80vh;
     margin: 0;
    
 }
@@ -221,6 +238,15 @@ footer {
     height: 100px;
     color: white;
     /*  overflow-y: scroll; */
+}
+footer a{
+  color: white;
+}
+.fa-twitter:hover{
+  color:dodgerblue;
+}
+.fa-youtube-play:hover{
+  color:#ff0000;
 }
 
 #social-media {
@@ -292,40 +318,4 @@ footer {
     }
   }
 
-#thumbnails-card {
-  
-}
 
-#audioheader {
-    
-}
-/*
- @media (max-width: 769px) {
-  .sidebar {padding-top: 15px;}
-  .sidebar a {font-size: 18px;}
-  #thumbnails-davy {
-    margin-right: auto;
-    margin-left: auto;}
-  #about-txt {
-     font-size: 19px;
-      text-align: center;}
-  #thumbnails-micky {
-    margin-left: 5%;
-    padding-left: inherit;}
-  #about-us{
-    height: 200vh;
-    position:relative;
-  }
-    #link-more {
-      padding-top: 10px;
-      padding-bottom: 10px;
-    }
-    #landing {
-      background-size: cover;
-      background-image: url('../images/black-guitar.jpg');
-      background-position: right;
-      background-repeat: no-repeat;
-    }
-    
-  }
-  */
