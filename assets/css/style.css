@@ -3,7 +3,8 @@ html{
 }
 
 body {
-  height: 100%
+  height: 100%;
+  font-family: 'Pacifico', cursive;
   
 }
 
@@ -32,7 +33,7 @@ li.nav-item {
   padding-bottom: 10px;
 }
 a.page-scroll {
-  color:black;
+  color:#212529;
   padding: 5px;
   font-size: 1.2em;
   
@@ -99,10 +100,16 @@ a.page-scroll:hover {
 
 }
 
-#core-about a{
-    color:#212529;
+#core-about a {
+    color: #212529;
+    font-size: x-large;
+    text-decoration: none;
 }
-  #about-row{
+#core-about a:hover{
+  color:grey;
+}
+
+#about-row{
     margin-top: 32px;
 }
 
@@ -135,6 +142,9 @@ a.page-scroll:hover {
 #link-more{
   font-size: 25px;
   text-align:right;
+}
+#link-more:hover{
+  color:grey;
 }
 
 /*------------------------------------------------------playlist section */
@@ -219,7 +229,9 @@ a.page-scroll:hover {
     margin: 0;
    
 }
-
+#contact-us p{
+  font-size: x-large;
+}
 
 
 
@@ -257,16 +269,22 @@ footer a{
 
 
 /* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
- @media (max-width: 769px) {
+ @media (max-width: 1025px) {
   .sidebar {padding-top: 15px;}
   .sidebar a {font-size: 18px;}
+  h1.title{
+    float:right;
+    margin-top:40px;
+  }
   #thumbnails-davy {
     margin: auto;
     padding: auto;
     }
   #about-txt {
-     font-size: 19px;
-      text-align: center;}
+    font-size: 19px;
+    text-align: center;
+    
+  }
   #thumbnails-micky {
     margin: auto;
     }
@@ -295,11 +313,7 @@ footer a{
       margin-top: 0px;
       padding-top: 30px
     }
-    #playlist {
-      height: auto;
-      margin: auto;
-    
-    }
+  
     #gallery {
       height: auto;
       margin: auto;
@@ -309,9 +323,17 @@ footer a{
       margin: 0;
     }
     #spoty {
-      width: 200px;
-      height: 300px;
+      width: auto;
+      height: 400px;
       margin: 0;
+    }
+    #playlist {
+      height: auto;
+      margin: auto;
+    }
+    .img-fluid{
+      margin-bottom:30px;
+      margin-top:30px;
     }
     body {
       margin: auto;
