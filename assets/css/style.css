@@ -1,15 +1,11 @@
 html{
   scroll-behavior: smooth;
 }
-
 body {
   height: 100%;
   font-family: 'Pacifico', cursive;
-  
 }
-
 /*-----------------------------------------------------------nav bar section */
-
 .navbar {
     text-align: right;
     overflow: hidden;
@@ -18,39 +14,31 @@ body {
     top: 0;
     width: 100%; /* Full width */
     z-index: 1;
-    
 }
 ul {
    background-color: rgb(204,204,204,0.9);
    float:right;
-   
    text-align: center;
-  
 }
-
 li.nav-item {
   padding-top: 10px;
   padding-bottom: 10px;
+  margin: 5px;
 }
 a.page-scroll {
   color:#212529;
   padding: 5px;
   font-size: 1.2em;
-  
 }
 a.page-scroll:hover { 
   color: grey;
   text-decoration: none;
 }   
-
 .navbar-light .navbar-toggler {
   background-color: rgb(204,204,204,0.9);
 }
-
 /*-----------------------------------------------------------landing section */
-
 #landing {
-    
     background-image: url('../images/mainpic.jpg');
     display: block;
     background-position: center;
@@ -59,7 +47,6 @@ a.page-scroll:hover {
     width: 100vw;
     margin: 0px;
     z-index: 1;
-  /*  overflow-y: scroll; */
 }
 #main {
   height: 100%; /* 100% Full-height */
@@ -68,22 +55,16 @@ a.page-scroll:hover {
   z-index: 1; /* Stay on top */
   top: 0;
   right: 10%;
-  
-  
   padding-top: 60px; /* Place content 60px from the top */
   transition: 0.5s; /* 0.5 second transition effect to slide in the sidebar */
 }
-
-
 /* Style page content - use this if you want to push the page content to the right when you open the side navigation */
 #main {
   transition: margin-left .5s; /* If you want a transition effect */
   padding: 20px;
   float:right;
 }
-
 /*-----------------------------------------------------------about us section */
-
 #about-us {
     background-attachment: fixed;
     background-image: url("../images/second wall 34.jpg");
@@ -97,9 +78,7 @@ a.page-scroll:hover {
     height: 100vh;
     margin-bottom:0px;
     /*  overflow-y: scroll; */
-
 }
-
 #core-about a {
     color: #212529;
     font-size: x-large;
@@ -108,30 +87,19 @@ a.page-scroll:hover {
 #core-about a:hover{
   color:grey;
 }
-
 #about-row{
     margin-top: 32px;
 }
-
 #about-txt {
-      
       font-size: 24px;
       text-align: center;
- 
 }
-
 #thumbnails-davy {
-    
     text-align: center;
-  
 }
-
 #thumbnails-micky {
-    
     text-align: center;
-   
 }
-
 .card-title {
   text-align: center;
   color: #414141;
@@ -146,9 +114,7 @@ a.page-scroll:hover {
 #link-more:hover{
   color:grey;
 }
-
 /*------------------------------------------------------playlist section */
-
 #playlist {
     background-attachment: fixed;
     background-position: center;
@@ -160,13 +126,8 @@ a.page-scroll:hover {
     font-weight: 300;
     margin-bottom: 0px;
     height: 100vh;
-    /*  overflow-y: scroll; */
 }
-
-
 /*------------------------------------------------------gallery section */
-
-
 #gallery {
     background-attachment: fixed;
     background-image: url("../images/second wall 34.jpg");
@@ -181,7 +142,6 @@ a.page-scroll:hover {
     height: 100vh;
     /*  overflow-y: scroll; */
 }
-
 .img-thumbnail {
   height: 200px;
   width: 260px;
@@ -191,13 +151,10 @@ a.page-scroll:hover {
   border-radius: 2.25rem;
   margin: 4px;
 }
-
 #media-title {
     align-content:center;
 }
-
 /*------------------------------------------------------video section */
-
 #videofile {
     background-attachment: fixed;
     background-position: center;
@@ -211,10 +168,7 @@ a.page-scroll:hover {
     height: 100vh;
     /*  overflow-y: scroll; */
 }
-
-
 /*------------------------------------------------------contact-us section */
-
 #contact-us{
     background-attachment: fixed;
     background-image: url("../images/second wall 34.jpg");
@@ -227,20 +181,12 @@ a.page-scroll:hover {
    /*  overflow-y: scroll; */
     height: 80vh;
     margin: 0;
-   
 }
 #contact-us p{
   font-size: x-large;
 }
-
-
-
-
 /*------------------------------------------------------footer section */
-
-
 footer {
-   
     width: 100vw;
     position: inherit;
     font-weight: 300;
@@ -249,7 +195,6 @@ footer {
     background-color: #414141;
     height: 100px;
     color: white;
-    /*  overflow-y: scroll; */
 }
 footer a{
   color: white;
@@ -260,14 +205,10 @@ footer a{
 .fa-youtube-play:hover{
   color:#ff0000;
 }
-
 #social-media {
   padding-top: 30px;
   letter-spacing: 5px;
 }
-
-
-
 /* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
  @media (max-width: 1025px) {
   .sidebar {padding-top: 15px;}
@@ -283,7 +224,6 @@ footer a{
   #about-txt {
     font-size: 19px;
     text-align: center;
-    
   }
   #thumbnails-micky {
     margin: auto;
@@ -313,7 +253,6 @@ footer a{
       margin-top: 0px;
       padding-top: 30px
     }
-  
     #gallery {
       height: auto;
       margin: auto;
@@ -323,7 +262,7 @@ footer a{
       margin: 0;
     }
     #spoty {
-      width: auto;
+      width: 250px;
       height: 400px;
       margin: 0;
     }
