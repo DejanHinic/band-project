@@ -41,7 +41,7 @@ I used 'Pacifico', cursive style, just to make it unique and to blend it with th
 - CSS https://www.w3schools.com/css/
 - Bootstrap4 https://getbootstrap.com/ 
 - MockFlow for wireframe  https://www.mockflow.com/
-- Adobe XD for mockup https://www.adobe.com/
+- Adobe for mockup https://www.adobe.com/
 - Google Fonts
  
 ## Testing
