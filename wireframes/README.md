@@ -12,37 +12,37 @@ from 60's to achieve a calm environment for users.
 Easy to navigate and to follow the links.
 This project contains 1 scolling page.
 
- - This website is for made for fans of The Monkees
- - Users can learn all about their history
- - They can listen the podcasts on spotify
- - They can connect with their social media pages (Facebook, Twitter, Youtube)
- - They can hire them for parties trough contact form
+- This website is for made for fans of The Monkees
+- Users can learn all about their history
+- They can listen the podcasts on spotify
+- They can connect with their social media pages (Facebook, Twitter, Youtube)
+- They can hire them for parties trough contact form
 
 ## Features and info
 
- - Navbar
+- Navbar
 I used same navbar for all the pages
 Simple Navbar wich extends in a mobile phone size 
- - About us page
+- About us page
 Few img in containers with text from wikipedia
 on the end there is 4 cards with img of the band members
 black and white ones represent 2 deceased members and in color still living
 all of them have link to their wikipedia biography
- - Multimedia
+- Multimedia
 Istead of audio material provided i choose spotify and (audio material provided was faulty)
 - Footer 
 Hovering above social media icons it changes color to their traditional colors
- - Font style
+- Font style
 I used 'Pacifico', cursive style, just to make it unique and to blend it with theme
 
 ## Technologies Used
 
- - HTML5 https://www.w3schools.com/html/ 
- - CSS https://www.w3schools.com/css/css_intro.asp/ 
- - Bootstrap4 https://getbootstrap.com/ 
- - MockFlow for wireframe  https://www.mockflow.com/
- - Adobe XD for mockup https://www.adobe.com/ie/products/xd.html/
- - Google Fonts
+- HTML5 https://www.w3schools.com/html/ 
+- CSS https://www.w3schools.com/css/
+- Bootstrap4 https://getbootstrap.com/ 
+- MockFlow for wireframe  https://www.mockflow.com/
+- Adobe XD for mockup https://www.adobe.com/
+- Google Fonts
  
 ## Testing
 
