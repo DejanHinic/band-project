@@ -48,22 +48,7 @@ a.page-scroll:hover {
     margin: 0px;
     z-index: 1;
 }
-#main {
-  height: 100%; /* 100% Full-height */
-  width: 0; /* 0 width - change this with JavaScript */
-  position: fixed; /* Stay in place */
-  z-index: 1; /* Stay on top */
-  top: 0;
-  right: 10%;
-  padding-top: 60px; /* Place content 60px from the top */
-  transition: 0.5s; /* 0.5 second transition effect to slide in the sidebar */
-}
-/* Style page content - use this if you want to push the page content to the right when you open the side navigation */
-#main {
-  transition: margin-left .5s; /* If you want a transition effect */
-  padding: 20px;
-  float:right;
-}
+
 /*-----------------------------------------------------------about us section */
 #about-us {
     background-attachment: fixed;
