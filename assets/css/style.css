@@ -1,9 +1,12 @@
 html{
   scroll-behavior: smooth;
+  
 }
 body {
   height: 100%;
   font-family: 'Pacifico', cursive;
+  overflow-x: hidden;
+  border-style: none;
 }
 /*-----------------------------------------------------------nav bar section */
 .navbar {
